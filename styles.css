@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(176, 194, 194);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.indicators{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.logo{
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin: 20%;
+}
+
+.indicatorName{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.indicatorButton{
+    font-weight: bolder;
+    background-color: rgb(244, 239, 233);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px;
+    cursor: pointer;
+}
+
+.results{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    justify-content: center;
+}
+
+.resultsSearch{
+    margin-top: 280px;
+}
+
+#searchBar{
+    width: 95%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.user{
+    width: 80px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.resultsFinal{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40% 60%;
+    background-color: rgb(244, 239, 233);
+}
+
+.resultsNumbers{
+    height: 20vh;
+    width: 50vh;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.numbersItem{
+    width: 26vh;
+    border: 5px;
+    border-width: 800px;
+    border-color: black;
+    background-color: aliceblue;
+    border-radius: 15px;
+    gap: 15em;
+    padding: 125px;
+}
+
+.resultsTable{
+    height: 20vh;
+    width: 56vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+    gap: 15em;
+    padding: 125px;
+    margin-left: 40px;
+}
